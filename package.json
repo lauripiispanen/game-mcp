@@ -1,0 +1,17 @@
+{
+  "name": "game-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for game testing and verification via Godot DevServer",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  }
+}
